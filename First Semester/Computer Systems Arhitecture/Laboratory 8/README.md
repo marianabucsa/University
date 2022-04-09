@@ -1,0 +1,3 @@
+Task (multi-module programming asm+C):
+
+Two strings of characters of equal length are given. Calculate and display the results of the interleaving of the letters, for the two possible interlaces (the letters of the first string in an even position, respectively the letters from the first string in an odd positions). Where no character exist in the source string, the ‘ ’ character will replace it in the destination string.

@@ -1,0 +1,16 @@
+c ; c ; c ; 3
+d ; d ; d ; 4
+b ; b ; b ; 2
+a ; a ; a ; 1
+w ; w ; w ; 5
+aaa ; fff ; ggg ; 7
+asd ; eee ; www ; 1
+g ; n ; gn ; 7
+dd ; a ; a ; 1
+aa ; a ; a ; 1
+cc ; a ; a ; 1
+gg ; a ; a ; 1
+jj ; a ; a ; 1
+kk ; a ; a ; 1
+ll ; a ; a ; 1
+oo ; a ; a ; 1

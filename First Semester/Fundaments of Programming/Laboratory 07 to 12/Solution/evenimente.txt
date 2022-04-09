@@ -1,0 +1,11 @@
+93 12/04/2010 10:20 film
+42 17/11/2020 20:30 club de carte
+18 17/11/2020 12:30 targ de carte
+20 12/04/2010 20:30 targ de carte
+16 3/04/2012 10:20 targ de carte
+51 31/07/2020 14:40 concert
+31 12/04/2010 12:30 film
+64 3/04/2012 14:40 film
+82 3/04/2012 14:40 club de carte
+58 17/11/2020 13:10 targ de carte
+97 17/11/2020 20:30 club de carte
