@@ -1,34 +1,34 @@
 # University
 
- Babes-Bolyai University -- Faculty of Mathematics and Computer Science -- Computer Science
- 
-          First Semester:
-              Algebra
-              Computational Logic
-              Computer Systems Arhitecture
-              Fundaments of Programming
-              Mathematical Analysis
-          Second Semester:
-              Data Structures and Algorithms
-              Dynamic Systems
-              Geometry
-              Graph Algorithms
-              Object Oriented Programming
-              Operating Systems
+### Babes-Bolyai University -- Faculty of Mathematics and Computer Science -- Computer Science<br/><br/>
+**First Semester:**<br/>
+  -  [Algebra](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Algebra)<br/>
+  - [Computational Logic](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Computational%20Logic)<br/>
+  - [Computer Systems Arhitecture](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Computer%20Systems%20Arhitecture)<br/>
+  - [Fundaments of Programming](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Fundaments%20of%20Programming)<br/>
+  - [Mathematical Analysis](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Mathematical%20Analysis)<br/>
+  
+**Second Semester:**<br/>
+  - [Data Structures and Algorithms](https://github.com/marianabucsa/University/tree/main/UBB/Second%20Semester/Data%20Structures%20and%20Algorithms)<br/>
+  - [Dynamic Systems](https://github.com/marianabucsa/University/tree/main/UBB/Second%20Semester/Dynamic%20Systems)<br/>
+  - [Geometry](https://github.com/marianabucsa/University/tree/main/UBB/Second%20Semester/Geometry)<br/>
+  - [Graph Algorithms](https://github.com/marianabucsa/University/tree/main/UBB/Second%20Semester/Graph%20Algoritmics)<br/>
+  - [Object Oriented Programming](https://github.com/marianabucsa/University/tree/main/UBB/Second%20Semester/Object%20Oriented%20Programming)<br/>
+  - [Operating Systems](https://github.com/marianabucsa/University/tree/main/UBB/Second%20Semester/Operating%20Systems)<br/>
          
-Technical University of Cluj-Napoca -- Faculty of Automation and Computer Science -- Automation and Applied Informatics
-
-          First Semester:
-              Basics of electronic circuits
-              Computer architecture
-              Computer programming
-              Linear Algebra and Analytical Geometry
-              Mathematical Analysis (Differential Calculus)
-              Physics
-           Second Semester:
-              Applied computer science
-              Chemistry
-              Computer aided graphics
-              Electrical engineering
-              Mathematical Analysis (Integral Calculus and Differential Equations)
-              Special mathematics in engineering
+### Technical University of Cluj-Napoca -- Faculty of Automation and Computer Science -- Automation and Applied Informatics<br/>
+**First Semester:**<br/>
+  - Basics of electronic circuits<br/>
+  - Computer architecture<br/>
+  - Computer programming<br/>
+  - Linear Algebra and Analytical Geometry<br/>
+  - Mathematical Analysis (Differential Calculus)<br/>
+  - Physics<br/>
+  
+**Second Semester:**<br/>
+  - Applied computer science<br/>
+  - Chemistry<br/>
+  - Computer aided graphics<br/>
+  - Electrical engineering<br/>
+  - Mathematical Analysis (Integral Calculus and Differential Equations)<br/>
+  - Special mathematics in engineering<br/>
