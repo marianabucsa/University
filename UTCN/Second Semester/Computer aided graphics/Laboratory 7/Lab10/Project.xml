@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectName>Lab10</ProjectName>
+  <ProjectDescription>
+  </ProjectDescription>
+  <ProjectVersion>92</ProjectVersion>
+  <ProjectVersionMinor>1</ProjectVersionMinor>
+  <ProjectParts>
+    <ProjectPart name="PnId" fileName="C:\Users\Vasile Mirza\Desktop\GAC\Lab10\Lab10\PIP_Metric_PnIdPart.xml" relativeFileName="PIP_Metric_PnIdPart.xml" uncFileName="" />
+    <ProjectPart name="Piping" fileName="C:\Users\Vasile Mirza\Desktop\GAC\Lab10\Lab10\Metric_PipingPart.xml" relativeFileName="Metric_PipingPart.xml" uncFileName="" />
+    <ProjectPart name="Iso" fileName="C:\Users\Vasile Mirza\Desktop\GAC\Lab10\Lab10\IsoPart.xml" relativeFileName="IsoPart.xml" uncFileName="" />
+    <ProjectPart name="Ortho" fileName="C:\Users\Vasile Mirza\Desktop\GAC\Lab10\Lab10\Metric_OrthoPart.xml" relativeFileName="Metric_OrthoPart.xml" uncFileName="" />
+    <ProjectPart name="Misc" fileName="C:\Users\Vasile Mirza\Desktop\GAC\Lab10\Lab10\MiscPart.xml" relativeFileName="MiscPart.xml" uncFileName="" />
+  </ProjectParts>
+  <ProjectPartDirectories>
+    <ProjectPartDirectory name="SpecSheets" directoryName="C:\Users\Vasile Mirza\Desktop\GAC\Lab10\Lab10\Spec Sheets" relativeDirectoryName="Spec Sheets" uncDirectoryName="" />
+    <ProjectPartDirectory name="Ortho" directoryName="C:\Users\Vasile Mirza\Desktop\GAC\Lab10\Lab10\Orthos\DWGs" relativeDirectoryName="Orthos\DWGs" uncDirectoryName="" />
+    <ProjectPartDirectory name="Related Files" directoryName="C:\Users\Vasile Mirza\Desktop\GAC\Lab10\Lab10\Related Files" relativeDirectoryName="Related Files" uncDirectoryName="" />
+  </ProjectPartDirectories>
+</Project>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectName>Project 3</ProjectName>
+  <ProjectDescription>
+  </ProjectDescription>
+  <GeneralSettings workHistory="eNoAutoPrompt" annotationOffsetDistance="1" />
+  <ProjectDirectories>
+    <SymbolsDirectory directoryName="" relativeDirectoryName="" uncDirectoryName="" />
+    <ProjectDirectory directoryName="C:\Users\Vasile Mirza\Desktop\GAC\Proiect3\Project 3" relativeDirectoryName="." uncDirectoryName="" />
+    <ProjectDwgDirectory directoryName="C:\Users\Vasile Mirza\Desktop\GAC\Proiect3\Project 3\Related Files" relativeDirectoryName="Related Files" uncDirectoryName="" />
+  </ProjectDirectories>
+  <ProjectFiles>
+    <ProjectDwtTemplateFile fileName="PID ANSI D -Color Dependent Plot Styles.dwt" relativeFileName="PID ANSI D -Color Dependent Plot Styles.dwt" uncFileName="" />
+    <DataCacheFile fileName="C:\Users\Vasile Mirza\Desktop\GAC\Proiect3\Project 3\Misc.dcf" relativeFileName="Misc.dcf" uncFileName="" />
+  </ProjectFiles>
+  <ProjectVersion>1</ProjectVersion>
+  <DrawingHistoryStatus>
+    <StatusItem>&lt;Unassigned&gt;</StatusItem>
+    <StatusItem>In progress</StatusItem>
+    <StatusItem>For review</StatusItem>
+    <StatusItem>Revision 1</StatusItem>
+    <StatusItem>Revision 2</StatusItem>
+    <StatusItem>Revision 3</StatusItem>
+    <StatusItem>Revision 4</StatusItem>
+    <StatusItem>Final</StatusItem>
+    <StatusItem>Archive</StatusItem>
+  </DrawingHistoryStatus>
+  <PnPDrawingFiles />
+  <ProjectRules>
+    <ArrayOfPnPRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </ProjectRules>
+  <ProjectTriggers />
+  <ProjectDataViews />
+</Project>

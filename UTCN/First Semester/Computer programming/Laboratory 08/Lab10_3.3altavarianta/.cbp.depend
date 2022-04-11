@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1575537978 source:c:\users\vasile mirza\desktop\pc\lab10\.cbp\lab10_3.3altavarianta\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

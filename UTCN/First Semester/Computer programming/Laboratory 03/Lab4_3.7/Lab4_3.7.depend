@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1571909429 source:c:\users\vasile mirza\desktop\pc\lab4_3.7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1577380725 source:c:\users\vasile mirza\desktop\pc\lab4\lab4_3.7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
