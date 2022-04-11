@@ -3,7 +3,8 @@
  Babes-Bolyai University -- Faculty of Mathematics and Computer Science -- Computer Science
  
           First Semester:
-              Algebra
+          
+              [Algebra](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Algebra)
               Computational Logic
               Computer Systems Arhitecture
               Fundaments of Programming
