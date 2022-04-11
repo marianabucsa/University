@@ -4,7 +4,7 @@
  
           First Semester:
           
-              [Algebra](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Algebra)
+              [Algebra]: https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Algebra
               Computational Logic
               Computer Systems Arhitecture
               Fundaments of Programming
