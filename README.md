@@ -2,7 +2,7 @@
 
 ### Babes-Bolyai University -- Faculty of Mathematics and Computer Science -- Computer Science<br/><br/>
 **First Semester:**<br/>
-  -  [Algebra](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Algebra)<br/>
+  - [Algebra](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Algebra)<br/>
   - [Computational Logic](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Computational%20Logic)<br/>
   - [Computer Systems Arhitecture](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Computer%20Systems%20Arhitecture)<br/>
   - [Fundaments of Programming](https://github.com/marianabucsa/University/tree/main/UBB/First%20Semester/Fundaments%20of%20Programming)<br/>
@@ -20,15 +20,15 @@
 **First Semester:**<br/>
   - Basics of electronic circuits<br/>
   - Computer architecture<br/>
-  - Computer programming<br/>
+  - [Computer programming](https://github.com/marianabucsa/University/tree/main/UTCN/First%20Semester/Computer%20programming)<br/>
   - Linear Algebra and Analytical Geometry<br/>
   - Mathematical Analysis (Differential Calculus)<br/>
   - Physics<br/>
   
 **Second Semester:**<br/>
-  - Applied computer science<br/>
-  - Chemistry<br/>
-  - Computer aided graphics<br/>
+  - [Applied computer science](https://github.com/marianabucsa/University/tree/main/UTCN/Second%20Semester/Applied%20computer%20science)<br/>
+  - [Chemistry](https://github.com/marianabucsa/University/tree/main/UTCN/Second%20Semester/Chemistry)<br/>
+  - [Computer aided graphics](https://github.com/marianabucsa/University/tree/main/UTCN/Second%20Semester/Computer%20aided%20graphics)<br/>
   - Electrical engineering<br/>
-  - Mathematical Analysis (Integral Calculus and Differential Equations)<br/>
+  - [Mathematical Analysis (Integral Calculus and Differential Equations)](https://github.com/marianabucsa/University/tree/main/UTCN/Second%20Semester/Mathematical%20Analysis%20(Integral%20Calculus%20and%20Differential%20Equations))<br/>
   - Special mathematics in engineering<br/>
