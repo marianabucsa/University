@@ -1,4 +1,5 @@
 Task:
+
 	a) Define a function that returns the scalar product of two vectors.
 	b) Write a function that returns the maximum number of atoms in a list, at any level.
 	c) Write a function that returns the list of permutations of a given list.
