@@ -1,4 +1,5 @@
 Task:
+
 	a) Sort a list with the elimination of duplicates. 
 	   For example: [4 2 6 2 3 4] => [2 3 4 6]
 	b) A heterogeneous list is given, consisting of integers and lists of numbers. Sort each sublist 
