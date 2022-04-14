@@ -15,6 +15,13 @@
   - [Graph Algorithms](https://github.com/marianabucsa/University/tree/main/UBB/Second%20Semester/Graph%20Algoritmics)<br/>
   - [Object Oriented Programming](https://github.com/marianabucsa/University/tree/main/UBB/Second%20Semester/Object%20Oriented%20Programming)<br/>
   - [Operating Systems](https://github.com/marianabucsa/University/tree/main/UBB/Second%20Semester/Operating%20Systems)<br/>
+  
+**Third Semester:**<br/>
+  - [Advanced Programming Methods](https://github.com/marianabucsa/University/tree/main/UBB/Third%20Semester/Advanced%20Programming%20Methods)<br/>
+  - [Computer Networks](https://github.com/marianabucsa/University/tree/main/UBB/Third%20Semester/Computer%20Networks)<br/>
+  - [Databases](https://github.com/marianabucsa/University/tree/main/UBB/Third%20Semester/Databases)<br/>
+  - [Logical and Functional Programming](https://github.com/marianabucsa/University/tree/main/UBB/Third%20Semester/Logical%20and%20Functional%20Programming)<br/>
+  - [Probabilities and Statistics](https://github.com/marianabucsa/University/tree/main/UBB/Third%20Semester/Probabilities%20and%20Statistics)<br/>
          
 ### Technical University of Cluj-Napoca -- Faculty of Automation and Computer Science -- Automation and Applied Informatics<br/>
 **First Semester:**<br/>
