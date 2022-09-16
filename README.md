@@ -22,6 +22,13 @@
   - [Databases](https://github.com/marianabucsa/University/tree/main/UBB/Third%20Semester/Databases)<br/>
   - [Logical and Functional Programming](https://github.com/marianabucsa/University/tree/main/UBB/Third%20Semester/Logical%20and%20Functional%20Programming)<br/>
   - [Probabilities and Statistics](https://github.com/marianabucsa/University/tree/main/UBB/Third%20Semester/Probabilities%20and%20Statistics)<br/>
+  
+**Fourth Semester:**<br/>
+  - [Artificial Intelligence](https://github.com/marianabucsa/University/tree/main/UBB/Fourth%20Semester/Artificial%20Intelligence)<br/>
+  - [Database Management Systems](https://github.com/marianabucsa/University/tree/main/UBB/Fourth%20Semester/Database%20Management%20Systems)<br/>
+  - [Projecting and Programming Methods](https://github.com/marianabucsa/University/tree/main/UBB/Fourth%20Semester/Projecting%20and%20Programming%20Methods)<br/>
+  - [Software Engineering](https://github.com/marianabucsa/University/tree/main/UBB/Fourth%20Semester/Software%20Engineering)<br/>
+  - [Web Programming](https://github.com/marianabucsa/University/tree/main/UBB/Fourth%20Semester/Web%20Programming)<br/>
          
 ### Technical University of Cluj-Napoca -- Faculty of Automation and Computer Science -- Automation and Applied Informatics<br/>
 **First Semester:**<br/>
