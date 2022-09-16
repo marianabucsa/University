@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="351.0" prefWidth="332.0" styleClass="background_color" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Button layoutX="112.0" layoutY="257.0" mnemonicParsing="false" onAction="#onLoginClick" prefHeight="25.0" prefWidth="102.0" text="Login">
+         <styleClass>
+            <String fx:value="round_corners" />
+            <String fx:value="button_color" />
+         </styleClass></Button>
+      <PasswordField fx:id="passwordText" layoutX="88.0" layoutY="188.0" promptText="Password" stylesheets="@style.css">
+         <styleClass>
+            <String fx:value="button_color" />
+            <String fx:value="round_corners" />
+         </styleClass></PasswordField>
+      <TextField fx:id="usernameText" layoutX="88.0" layoutY="119.0" promptText="Username" stylesheets="@style.css">
+         <styleClass>
+            <String fx:value="button_color" />
+            <String fx:value="round_corners" />
+         </styleClass></TextField>
+      <Label layoutX="105.0" layoutY="47.0" stylesheets="@style.css" text="Autentication">
+         <font>
+            <Font name="Jokerman" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+ul{
+    margin-left: 80px;
+}
+
+ul .alice{
+    list-style-image: url(alice.png);
+}
+
+ul .bob{
+    list-style-image: url(bob.png);
+}
+
+ul li{
+    text-align: center;
+    width: 200px;
+}
+
+
+.bob
+.alice{
+    float: left;
+    clear: left;
+}
+
+.alice{
+    border-radius: 10px;
+    margin-bottom: 100px;
+    background-color: lightblue;
+}
+
+.bob{
+    border-radius: 10px;
+    margin-bottom: 100px;
+    background-color: darkseagreen;
+    vertical-align: center;
+}
+
+.bob:hover{
+    transition: 0.5ms;
+    list-style-image: url("alice.png");
+}
+
+.alice:hover{
+    transition: 0.5ms;
+    list-style-image: url("bob.png");
+}

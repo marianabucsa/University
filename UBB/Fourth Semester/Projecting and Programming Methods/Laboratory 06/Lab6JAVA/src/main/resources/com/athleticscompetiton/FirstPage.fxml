@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="299.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.athleticscompetiton.controller.Controller">
+   <children>
+      <TextArea layoutX="14.0" layoutY="84.0" prefHeight="108.0" prefWidth="127.0" text="6-8 years old&#10;9-11 years old&#10;12-15 years old" />
+      <TextArea layoutX="164.0" layoutY="84.0" prefHeight="108.0" prefWidth="127.0" text="6-8 years old&#10;9-11 years old&#10;12-15 years old" />
+      <TextArea layoutX="316.0" layoutY="84.0" prefHeight="108.0" prefWidth="127.0" text="9-11 years old&#10;12-15 years old" />
+      <TextArea layoutX="458.0" layoutY="84.0" prefHeight="108.0" prefWidth="127.0" text="9-11 years old&#10;12-15 years old" />
+      <Label layoutX="13.0" layoutY="29.0" text="Rounds and Age Groups" />
+      <Label layoutX="14.0" layoutY="66.0" text="50 m Round" />
+      <Label layoutX="163.0" layoutY="66.0" text="100 m Round" />
+      <Label layoutX="315.0" layoutY="66.0" text="1000 m Round" />
+      <Label layoutX="457.0" layoutY="66.0" text="1500 m Round" />
+      <Button fx:id="searchChildButton" layoutX="187.0" layoutY="237.0" mnemonicParsing="false" onAction="#onSearchButtonClicked" text="Search Child" />
+      <Button fx:id="enrollChildButton" layoutX="341.0" layoutY="237.0" mnemonicParsing="false" onAction="#onEnrollButtonClicked" text="Enroll Child" />
+   </children>
+</AnchorPane>

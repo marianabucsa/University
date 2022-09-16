@@ -1,0 +1,33 @@
+.photos {
+    display: inline-block;
+    background: azure;
+}
+
+.back{
+    border: solid 0.1em black;
+    width: 500px;
+}
+
+.photo{
+    width: 100px;
+    height: 120px;
+}
+
+.photos li {
+    background: deepskyblue;
+    margin: 2%;
+    list-style: none;
+    width: fit-content;
+    float: left;
+    width: 46%;
+    text-align: center;
+}
+
+.photos li p {
+    text-align: center;
+    align-self: center;
+}
+
+.photos li img {
+    horiz-align:center;
+}

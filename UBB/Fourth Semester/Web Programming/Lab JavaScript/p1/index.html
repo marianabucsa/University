@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Problema 1 JS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="parent">
+    <div id="div1">
+        <select multiple id="leftlist" ondblclick="move('leftlist','rightlist')">
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="mercedes">Mercedes</option>
+        </select>
+    </div>
+    <div id="div2">
+        <select multiple id="rightlist" ondblclick="move('rightlist','leftlist')">
+            <option value="ferrari">Ferrari</option>
+            <option value="bmw">BMW</option>
+            <option value="seat">Seat</option>
+        </select>
+    </div>
+</div>
+</body>
+</html>

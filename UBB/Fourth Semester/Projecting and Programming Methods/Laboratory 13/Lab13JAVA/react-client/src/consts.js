@@ -1,0 +1,1 @@
+export const COMPETITION_ROUNDS_URI='http://localhost:8081/competition/rounds';

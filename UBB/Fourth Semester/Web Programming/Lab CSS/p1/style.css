@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    width: 400px;
+    border: 1px solid Black;
+    align-items: center;
+}
+
+.content{
+    width: 200px;
+    align-self: center;
+    text-align: center;
+}
+
+#divImagine{
+    max-width: 200px;
+    width: 190px;
+    align-self: center;
+}
+
+#divText{
+    max-width: 200px;
+    text-align: center;
+}

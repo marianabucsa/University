@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Problema 2 JS</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <form method="POST" id="form" action="">
+    <div>
+      <label>Nume</label><br>
+      <span id="spannume" class="error">Campul trebuie completat!</span>
+      <input type="text" name="nume" id="nume"><br>
+    </div>
+
+    <div>
+      <label>Data nasterii</label><br>
+      <span id="spandata" class="error">Format invalid pentru data nasterii!</span>
+      <input type="text" name="data" id="data" style="width: 155px"> <br>
+    </div>
+
+    <div>
+      <label>Varsta</label><br>
+      <span id="spanvarsta" class="error">Varsta trebuie sa fie un numar natural!</span>
+      <input type="text" name="varsta" id="varsta"><br>
+    </div>
+
+    <div>
+      <label>Adresa e-mail</label><br>
+      <span id="spanemail" class="error">Email-ul este invalid!</span>
+      <input type="text" name="email" id="email"><br><br>
+    </div>
+
+    <div id="buton">
+      <button type="submit">Trimite</button>
+    </div>
+  </form>
+</body>
+
+</html>

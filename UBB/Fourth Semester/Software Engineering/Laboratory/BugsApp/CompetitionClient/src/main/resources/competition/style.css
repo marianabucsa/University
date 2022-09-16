@@ -1,0 +1,55 @@
+.background_color {
+    -fx-background-color: #adff2f;
+}
+
+.round_corners {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}
+.background_image{
+    -fx-background-image: url("Bugs.png");
+}
+.button_color {
+    -fx-background-color: #3cb371;
+    -fx-prompt-text-fill: black;
+}
+
+.choice-box .menu-item{
+
+    -fx-background-color: black;
+
+}
+
+.text_field{
+    -fx-background-color: #00fa9a;
+}
+
+.black_background{
+    -fx-background-color: black	;
+    -fx-prompt-text-fill: white;
+    -fx-border-color: #ffff00;
+    -fx-text-fill: white;
+}
+.combo_box_base .text{
+    -fx-fill: white;
+}
+
+.text-area .content {
+    -fx-background-color: black;
+    -fx-prompt-text-fill: white;
+    -fx-text-fill: white;
+  }
+
+.text_area {
+    -fx-text-fill: white;
+}
+
+.text-area .text {
+    -fx-fill: white;
+}
+.blue_background{
+    -fx-background-color:  #f5fffa;
+}
+.button {
+    -fx-font: 12px Jokerman;
+}

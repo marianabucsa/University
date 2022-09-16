@@ -1,0 +1,29 @@
+.photos li {
+    width: fit-content;
+    list-style: none;
+    display: flex;
+
+}
+
+.photo{
+    width: 100px;
+    height: 120px;
+}
+
+.back{
+    border: solid 0.1em black;
+    width: 400px;
+    background: yellow;
+}
+
+.photos li p{
+    text-align: center;
+    display: inline-flex;
+    vertical-align: center;
+    margin: 2px;
+}
+
+.photos {
+    width: fit-content;
+    background: yellow;
+}

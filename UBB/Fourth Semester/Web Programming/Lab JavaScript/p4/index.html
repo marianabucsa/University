@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 4 JS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table>
+    <h1>Studenti</h1>
+    <tr>
+        <th>Numar matricol</th>
+        <th>Nume student</th>
+        <th>Prenume student</th>
+        <th>Media</th>
+        <th>Nr. loc</th>
+    </tr>
+    <tr>
+        <td>12252</td>
+        <td>Andronic</td>
+        <td>Andreea</td>
+        <td>9.6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>12265</td>
+        <td>Cozmici</td>
+        <td>Alexandru</td>
+        <td>7.8</td>
+        <td>125</td>
+    </tr>
+    <tr>
+        <td>12242</td>
+        <td>Zamfirescu</td>
+        <td>Vlad</td>
+        <td>8.9</td>
+        <td>66</td>
+    </tr>
+    <tr>
+        <td>12234</td>
+        <td>Dranca</td>
+        <td>Ioan</td>
+        <td>9.8</td>
+        <td>4</td>
+    </tr>
+</table>
+<table>
+    <h1>Studenti</h1>
+    <tr>
+        <th>Numar matricol</th>
+        <th>Nume student</th>
+        <th>Prenume student</th>
+        <th>Media</th>
+        <th>Nr. loc</th>
+    </tr>
+    <tr>
+        <td>12252</td>
+        <td>Andronic</td>
+        <td>Andreea</td>
+        <td>9.6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>12265</td>
+        <td>Cozmici</td>
+        <td>Alexandru</td>
+        <td>7.8</td>
+        <td>125</td>
+    </tr>
+    <tr>
+        <td>12242</td>
+        <td>Zamfirescu</td>
+        <td>Vlad</td>
+        <td>8.9</td>
+        <td>66</td>
+    </tr>
+    <tr>
+        <td>12234</td>
+        <td>Dranca</td>
+        <td>Ioan</td>
+        <td>9.8</td>
+        <td>4</td>
+    </tr>
+</table>
+<script src="script.js"></script>
+<script>
+
+    function sortWithHeadersOnRow(currentIndex, sortingAscending, table) {
+
+        function sortOneRow(row1, row2, sortingAscending, column1, column2) {
+            let value1 = (isNaN(column1.innerHTML)) ? column1.innerHTML : (column1.innerHTML * 1);
+            let value2 = (isNaN(column2.innerHTML)) ? column2.innerHTML : (column2.innerHTML * 1);
+            if (sortingAscending === true) {
+                if (value1 > value2)
+                    row1.parentElement.insertBefore(row2, row1);
+            } else if (value1 < value2)
+                row1.parentElement.insertBefore(row2, row1);
+        }
+
+        //main
+        let rows = table.getElementsByTagName("tr");
+        for (let i = 1; i < rows.length - 1; ++i) {
+            for (let j = i + 1; j < rows.length; ++j) {
+                rows = table.getElementsByTagName("tr");
+                let column2 = rows[j].getElementsByTagName("td")[currentIndex];
+                let column1 = rows[i].getElementsByTagName("td")[currentIndex];
+                sortOneRow(rows[i], rows[j], sortingAscending, column1, column2);
+            }
+        }
+    }
+
+    //main
+    addEventsOnHeaders(sortWithHeadersOnRow);
+</script>
+</body>
+</html>

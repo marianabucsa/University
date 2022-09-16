@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="579.0" prefWidth="871.0" styleClass="background_image" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="viewBugsTable" layoutX="71.0" layoutY="84.0" onMouseClicked="#onViewTableBugsMouseClicked" prefHeight="208.0" prefWidth="383.0">
+        <columns>
+          <TableColumn fx:id="nameTableColumn" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="stageTableColumn" prefWidth="75.0" text="Stage" />
+            <TableColumn fx:id="assProgTableColumn" prefWidth="130.00006103515625" text="Assigned Programmer" />
+            <TableColumn fx:id="solvedByTableColumn" prefWidth="99.99993896484375" text="solvedBy" />
+            <TableColumn fx:id="descriptionTableColumn" prefWidth="75.0" text="Description" />
+            <TableColumn fx:id="idTableColumn" prefWidth="75.0" text="id" />
+        </columns>
+         <styleClass>
+            <String fx:value="round_corners" />
+            <String fx:value="black_background" />
+         </styleClass>
+      </TableView>
+      <Label layoutX="249.0" layoutY="30.0" text="Programmer">
+         <font>
+            <Font name="Jokerman" size="18.0" />
+         </font></Label>
+      <Button layoutX="320.0" layoutY="345.0" mnemonicParsing="false" onAction="#viewAllBugsVerifierClick" prefHeight="32.0" prefWidth="134.0" text="View All Bugs" textFill="WHITE">
+         <styleClass>
+            <String fx:value="round_corners" />
+            <String fx:value="black_background" />
+         </styleClass></Button>
+      <Button layoutX="326.0" layoutY="426.0" mnemonicParsing="false" onAction="#viewAllBugsProgrammerClick" text="View Assigned Bugs" textFill="#fffdfd">
+         <styleClass>
+            <String fx:value="round_corners" />
+            <String fx:value="black_background" />
+         </styleClass></Button>
+      <Button layoutX="326.0" layoutY="506.0" mnemonicParsing="false" onAction="#onRepairBugClick" prefHeight="32.0" prefWidth="134.0" text="Resolve Bugs" textFill="#fffdfd">
+         <styleClass>
+            <String fx:value="round_corners" />
+            <String fx:value="black_background" />
+         </styleClass></Button>
+      <TextArea fx:id="bugDescriptionTable" layoutX="64.0" layoutY="345.0" prefHeight="193.0" prefWidth="234.0">
+         <styleClass>
+            <String fx:value="black_background" />
+            <String fx:value="round_corners" />
+            <String fx:value="text_area" />
+         </styleClass>
+      </TextArea>
+      <Label layoutX="71.0" layoutY="315.0" styleClass="background_color" text="BUG Description">
+         <font>
+            <Font name="Jokerman" size="12.0" />
+         </font>
+      </Label>
+      <TableView fx:id="viewStepsTable" layoutX="479.0" layoutY="80.0" prefHeight="463.0" prefWidth="383.0">
+         <columns>
+            <TableColumn fx:id="orderTableColumn" prefWidth="116.0" text=" Step Order" />
+            <TableColumn fx:id="textTableColumn" prefWidth="264.0" text="Step Text" />
+            <TableColumn fx:id="idStepTableColumn" minWidth="0.0" prefWidth="0.0" text="Step id" />
+            <TableColumn fx:id="idBugStepTableColumn" prefWidth="84.0" text="StepBug Id" />
+         </columns>
+         <styleClass>
+            <String fx:value="background_color" />
+            <String fx:value="black_background" />
+            <String fx:value="round_corners" />
+         </styleClass>
+      </TableView>
+   </children>
+</AnchorPane>

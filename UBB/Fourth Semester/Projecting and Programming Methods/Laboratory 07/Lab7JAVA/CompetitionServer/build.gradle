@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application{
+    mainClass='StartServer'
+}
+
+
+dependencies {
+    implementation project (':CompetitionModel')
+    implementation project (':CompetitionServices')
+    implementation project (':CompetitionPersistance')
+    implementation project (':CompetitionNetworking')
+    implementation 'org.springframework:spring-context:5.0.4.RELEASE'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}

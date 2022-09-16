@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Problema 1</title>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <select
+          id="statiePlecare"
+          onclick="showPlecari() "
+          onchange="showRoutes(this.value)"
+        ></select>
+      </div>
+      <select id="statieSosire"></select>
+    </div>
+
+    <script>
+      function showPlecari() {
+        console.log("In function");
+        var request, response, select;
+
+        request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("statiePlecare").innerHTML =
+              this.responseText;
+          }
+        };
+        request.open("GET", "http://localhost/web/p1_selectPlecari.php", true);
+        request.send("");
+      }
+
+      function showRoutes(statiePlecare) {
+        var request, response, div1, select;
+
+        if (statiePlecare == "") {
+          console.log(statiePlecare);
+          document.getElementById("statieSosire").innerHTML = "";
+          return;
+        }
+        document.getElementById("statiePlecare").value = statiePlecare;
+        request = new XMLHttpRequest();
+        request.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("statieSosire").innerHTML =
+              this.responseText;
+          }
+        };
+        request.open(
+          "GET",
+          "http://localhost/web/p1_selectSosiri.php?statiePlecare=" +
+            statiePlecare,
+          true
+        );
+        request.send("");
+      }
+    </script>
+  </body>
+</html>

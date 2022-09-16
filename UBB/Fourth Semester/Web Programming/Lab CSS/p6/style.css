@@ -1,0 +1,56 @@
+.c1 {
+    width: calc(20 * (1cm + 1px) - 0.078cm);
+    height: 1cm;
+    border: 2px solid black;
+    background: repeating-linear-gradient(to right, #fff, #fff 2.2ch, #000 1cm, #000 calc(1cm + 1px));
+    font-size: 29px;
+    letter-spacing: 0.601cm;
+    font-family: monospace;
+}
+
+.c2 {
+    width: calc(13 * (1cm + 1px) - 0.08cm);
+    height: 1cm;
+    border: 2px solid black;
+    background: repeating-linear-gradient(to right, #fff, #fff 2.2ch, #000 1cm, #000 calc(1cm + 1px));
+    font-size: 29px;
+    letter-spacing: 0.6cm;
+    font-family: monospace;
+}
+
+div {
+    padding: 10px;
+    font-family: "Arial Black";
+
+}
+.input{
+    display: flex;
+}
+
+#p1{
+    margin-left: 0.7cm;
+    margin-right: 1cm;
+}
+#p2{
+    margin-right: 1cm;
+}
+#p3{
+    margin-left: 1.1cm;
+    margin-right: 1cm;
+}
+
+@media screen and (max-width: 800px) {
+    input {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    input {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}

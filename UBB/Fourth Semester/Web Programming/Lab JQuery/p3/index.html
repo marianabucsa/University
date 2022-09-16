@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+
+      <div class="board-container">
+        <div class="board" data-dimension="4"></div>
+        <div class="win">You won!</div>
+      </div>
+
+      <div class="controls">
+
+        <input id="text_nickname" type="text"></input>
+        <button id="start_button"  onclick="createGame()">Start</button>
+
+        <div class="stats">
+          <div class="moves">0 moves</div>
+          <div class="timer">time: 0 sec</div>
+        </div>
+        <div id = "scores">
+          <table id = "high_scores">
+            <tr>
+              <th  colspan="2" halign="center"><h2 text-align = "center">HighScores</h2></th>
+            </tr>
+            <tr>
+              <td halign="center">Nickname</td>
+              <td halign="center">Highscore</td>
+            </tr>
+        </table>
+      </div>
+  </body>
+</html>

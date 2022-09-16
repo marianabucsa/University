@@ -1,0 +1,52 @@
+.header {
+    display:flex;
+    background-color: red;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer {
+    background-color: pink;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content p {
+    margin: 0;
+    position: relative;
+    top: 26%;
+}
+
+.content{
+    margin-left: 15%;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: green;
+    vertical-align: middle;
+}
+
+
+#list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 15%;
+    background-color: yellow;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#list li{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}

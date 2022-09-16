@@ -1,0 +1,26 @@
+input.invalid{
+  border: 0.5px solid red;
+}
+
+input.valid {
+  border: 0.5px solid black;
+}
+
+.error{
+  display: none;
+  margin: 10px;
+}
+
+.error_show{
+  display: flex;
+  color: red;
+  margin: 15px;
+}
+
+#form div{
+  margin-top: 1em;
+}
+#form label{
+  width: 100px;
+  text-align: right;
+}

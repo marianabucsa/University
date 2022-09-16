@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="397.0" prefWidth="403.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.athleticscompetiton.controller.Controller">
+   <children>
+      <Label layoutX="127.0" layoutY="79.0" text="Username" />
+      <Label layoutX="127.0" layoutY="156.0" text="Password" />
+      <TextField fx:id="usernameText" layoutX="127.0" layoutY="97.0" />
+      <Button fx:id="loginButton" layoutX="176.0" layoutY="257.0" mnemonicParsing="false" onAction="#onLoginClick" text="Login" />
+      <PasswordField fx:id="passwordText" layoutX="125.0" layoutY="173.0" />
+   </children>
+</AnchorPane>
